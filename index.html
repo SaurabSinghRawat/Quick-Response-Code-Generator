@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>QR Code Generator</title>
+</head>
+<body>
+
+<div class="container">
+  <h1 style="list-style: none; margin: 0; padding: 0;">QR Code Generator</h1>
+  <input type="text" id="text" placeholder="Enter text or URL">
+  <button onclick="generateQRCode()">Generate</button>
+  <div id="qrcode" style="display: none;"></div>
+  <button id="shareBtn" class="share-btn" style="display: none;">Share</button>
+</div>
+  <div id="subscription">
+      <p class="text">Made with</p>
+      <div id="hrt">♥</div>
+      <p class="text">by <span class="name">Saurab</span></p>
+    </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
+</body>
+</html>
